@@ -27,6 +27,14 @@
       text-align: center;
     }
 
+    .header-logo {
+      width: 48px;
+      height: 48px;
+      object-fit: contain;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
     header h1 {
       font-size: 2rem;
       margin-bottom: 0.35em;
@@ -156,13 +164,26 @@
       .image-row img {
         height: auto;
       }
+
+      .header-logo {
+        width: 40px;
+        height: 40px;
+        margin-right: 8px;
+      }
+
+      header h1 {
+        font-size: 1.7rem;
+      }
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>🐶 Paws & Play — Das Hunde-Spiel</h1>
+    <h1>
+      <img src="logo_weiß.png" alt="" class="header-logo">
+      Paws & Play — Das Hunde-Spiel
+    </h1>
     <p>Lerne das Leben eines Hundes kennen – Pflege, Spiel und gemeinsame Abenteuer</p>
   </header>
 
@@ -243,7 +264,7 @@
       <div class="video-box">
         <video
           controls
-          title="Ein Husky heult in die Kamera. | Lizenz: CC BY-SA 4.0, via Wikimedia Commons">
+          title="Ein Husky heult in die Kamera. | Lizenz: CC0 1.0 Universal (Public Domain), via Wikimedia Commons">
           <source src="https://commons.wikimedia.org/wiki/Special:FilePath/Howling%20Husky%20Dog.webm" type="video/webm">
           Dein Browser unterstützt das Video nicht.
         </video>
